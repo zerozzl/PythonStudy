@@ -245,8 +245,8 @@ def topic_extract(stop_word_path, corpus_path, word_list, model, pos=False, keyw
 
 
 if __name__ == '__main__':
-    stop_word_path = 'E:/workdata/ISBN9787111597674/chapter5/stopword.txt'
-    corpus_path = 'E:/workdata/ISBN9787111597674/chapter5/corpus.txt'
+    stop_word_path = '/sdb/traindatas/ISBN9787111597674/chapter5/stopword.txt'
+    corpus_path = '/sdb/traindatas/ISBN9787111597674/chapter5/corpus.txt'
 
     text = '6月19日,《2012年度“中国爱心城市”公益活动新闻发布会》在京举行。' + \
            '中华社会救助基金会理事长许嘉璐到会讲话。基金会高级顾问朱发忠,全国老龄' + \
