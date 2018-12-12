@@ -114,7 +114,7 @@ def time_extract(text):
         if k in keyDate:
             if word != '':
                 time_res.append(word)
-            word = (datetime.today() + timedelta(days=keyDate.get(k, 0))).strftime('%Y年%m月%d日')
+            word = (datetime.today() + timedelta(days=keyDate.get(k, 0))).strftime('%Y{y}%m{m}%d{d}').format(y='年', m='月', d='日')
         elif word != '':
             if v in ['m', 't']:
                 word = word + k
